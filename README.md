@@ -9,3 +9,6 @@ Made for the course **Programming in the Unix Environment**, I dedicated these p
  * [Zipcode File Analyzer Program](http://thejonathanrivera.com/CGIMiniProjects/project2.html) - A program that accepts two files, and with Java, emulates SQL commands such as Group By in order to create a clean HTML table result
 
 [Example download files for the projects](http://thejonathanrivera.com/CGIMiniProjects/Project_Sources.html)
+
+## Notes
+ * Since the project uses CGI, the project is made up of two folders. The CGI Mini Projects folder, which hold all the websites that users connect to, as well as hold all the front end information, and the CGI folder, which acts as the brain of the majority of the projects, which processes requests sent by the CGI Mini Projects. The only exception is the Local Weather Program, which is all handled by PHP, and is combined with the frontend in the file "**temperature.php**."
