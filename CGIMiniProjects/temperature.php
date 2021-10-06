@@ -12,7 +12,7 @@
 <?php
 
   // Initialize and Retrieve Weather and Geo information
-  $api_key = "bdb93c9d10a01a6b1e80b4eb273e7e82";
+  $api_key = "CENSORED"; // API key censored for safety
   $ip = $_SERVER['REMOTE_ADDR'];
   $latlong = explode(",", file_get_contents('https://ipapi.co/' . $ip . '/latlong/'));
   $WeatherJSON = file_get_contents('http://api.openweathermap.org/data/2.5/weather?lat=' . $latlong[0] . '&lon=' . $latlong[1] . '&appid=' . $api_key);
