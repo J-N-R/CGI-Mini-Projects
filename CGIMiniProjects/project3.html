@@ -1,0 +1,49 @@
+<html>
+
+ <head> <title>Jonathan Rivera Project 3</title> </head>
+
+ <body>
+
+ <div style='font-size: 150%'>
+
+   <h1>CPS 3525 Project 3</h1>
+
+   <form enctype='multipart/form-data' action='../cgi-bin/Project3' method='POST'>
+     Name: <input type='text' name='name' style='font-size: 75%' required>
+     Sex:  <input type='radio' value='M' name='gender'>M <input type='radio' value='F' name='gender' required>F<br>
+   
+     Age:  <input type='text' name='age' style='width: 3%; font-size: 75%' required>
+     GPA:  <input type='text' name='GPA' style='width: 4%; font-size: 75%' required>
+     Birthday: <input type='date' name='birthday' style='font-size: 75%' required> <br>
+   
+     Interests:  
+               <input type='checkbox' name='Biking' value='ON'> Biking
+               <input type='checkbox' name='Reading' value='ON'> Reading
+               <input type='checkbox' name='Fishing' value='ON'> Fishing
+               <input type='checkbox' name='Swimming' value='ON'> Swimming
+               <br>
+   
+     Select term: <select name='term' style='font-size: 75%' required>
+                      <option value='2020S'> 2020 Spring  </option>
+                      <option value='2020S1'>2020 Summer 1</option>
+                      <option value='2020S2'>2020 Summer 2</option>
+                      <option value='2020F'> 2020 Fall    </option>
+                  </select>
+                  <br>
+   
+     Paste the object text here: <br>
+     <textarea name='mydata' cols='20' rows='10' style='font-size: 75%' required></textarea> <br> <br>
+
+     2nd Object Text Date File: <input type="file" name="file" style='font-size: 75%' required> <br> <br>
+
+     <input type='submit' value='Submit' style='font-size: 150%'>
+
+
+     <br><p style='margin-top: 15%'><small><small>Made by rivejona@kean.edu</small></small></p>
+   </form>
+
+ </div>
+
+ </body>
+
+</html>
