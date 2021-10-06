@@ -1,6 +1,6 @@
 ## Notes
-* index.html is the main opening page that all users see.
-* Project_Sources.html hosts the download links for all the example files in the Examples folder
+* index.html is the main opening page that all users see, that hosts the links to all the projects.
+* Project_Sources.html hosts the download links for all the example files in the Examples folder.
 * The upload folder is where all verified files from the user get uploaded to.
 * Temperature.php is the **Local weather project. It is standalone.**
 * project2.html is the **Zipcode Analyzer Program**. It accesses the CGI files **project2.cgi** and **project2.java** to verify the files being uploaded and to process the files.
